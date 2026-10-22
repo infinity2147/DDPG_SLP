@@ -1,0 +1,26 @@
+{
+  "experiment": "E1 w->2w",
+  "phi_s1": 1.0,
+  "phi_s2": 2.0,
+  "r": 0.0,
+  "gamma": 0.99,
+  "w0": 1.0,
+  "n_steps": 1000000,
+  "alpha0": 0.1,
+  "schedules": {
+    "const": "alpha0",
+    "decay": "alpha0 / n^0.6"
+  },
+  "clip_lambda": 1.0,
+  "proj_R": 10.0,
+  "weight_decay": 0.01,
+  "overflow_threshold": 1e+300,
+  "variants": [
+    "plain",
+    "clip",
+    "clip_proj",
+    "clip_wd",
+    "clip_wd_coupled"
+  ],
+  "dtype": "float64"
+}

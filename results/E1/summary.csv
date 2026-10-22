@@ -1,0 +1,11 @@
+schedule,variant,final_abs_w,overflow_step,p1_N,p1_min_rel_gap,p1_max_abs_rel_gap
+const,plain,,7389.0,2,,
+const,clip,100000.99800133295,,2,-1.1025916956973443e-15,1.102772077517209e-15
+const,clip_proj,10.0,,2,,
+const,clip_wd,99.89999999998713,,2,,
+const,clip_wd_coupled,100000.99700133294,,2,,
+decay,plain,4.2968466598816916e+26,,2,,
+decay,clip,63.59990720234773,,2,-8.805021626175157e-15,8.805021626175157e-15
+decay,clip_proj,10.0,,2,,
+decay,clip_wd,47.06186998708919,,2,,
+decay,clip_wd_coupled,63.598907202347725,,2,,

@@ -1,0 +1,62 @@
+{
+  "experiment": "E2 Baird",
+  "gamma": 0.99,
+  "r": 0.0,
+  "n_steps": 1000000,
+  "alpha0": 0.01,
+  "schedules": {
+    "const": "alpha0",
+    "decay": "alpha0 / n^0.6"
+  },
+  "clip_lambda": 1.0,
+  "proj_R": "R_mult x output-layer norm at init",
+  "R_mult": 10.0,
+  "weight_decay": 0.01,
+  "seeds": 10,
+  "behaviour": "dashed w.p. 6/7 (-> uniform over states 1-6), solid w.p. 1/7 (-> state 7)",
+  "target": "always solid; rho = 7 (solid) or 0 (dashed)",
+  "state_dist": "uniform over 7 states",
+  "linear": {
+    "features": "S&B Ex. 11.1",
+    "w0": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10,
+      1
+    ]
+  },
+  "net": {
+    "input": "one-hot(7)",
+    "hidden": 32,
+    "act": "tanh",
+    "init": "PyTorch default U(+-1/sqrt(fan_in))",
+    "hidden_update": "plain SGD, unclipped, same alpha",
+    "output_update": "variant"
+  },
+  "variants": [
+    "plain",
+    "clip",
+    "clip_proj",
+    "clip_wd",
+    "clip_wd_coupled"
+  ],
+  "overflow_threshold": 1e+300,
+  "dtype": "float64",
+  "R_linear": 103.44080432788601,
+  "R_net_per_seed": [
+    5.8681587333812075,
+    5.304800951590566,
+    5.645725279019499,
+    5.885785320414252,
+    6.121473316156134,
+    6.567100518125063,
+    6.078968202916222,
+    4.935884672377036,
+    5.681505516867894,
+    5.802684408021971
+  ]
+}

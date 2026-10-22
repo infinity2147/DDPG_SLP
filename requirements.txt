@@ -1,0 +1,14 @@
+dm_control==1.0.49
+gymnasium==1.1.1
+matplotlib==3.11.2
+mujoco==3.16.0
+numpy==2.4.6
+pandas==3.0.6
+pyarrow==26.0.0
+pytest==9.1.1
+PyYAML==6.0.3
+rliable==1.2.0
+scipy==1.17.1
+seaborn==0.13.2
+Shimmy==2.0.1
+torch==2.6.0+cu124

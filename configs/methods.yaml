@@ -1,0 +1,18 @@
+# Method presets. Every run = preset + per-experiment overrides (scripts/experiments.py).
+# Keys not listed take the defaults in tdrl/agents.py::DEFAULTS and tdrl/train.py::RUN_DEFAULTS.
+ddpg:                {algo: ddpg}
+ddpg_notarget:       {algo: ddpg, use_target: false}
+td3:                 {algo: td3, n_critics: 2, policy_delay: 2, target_noise: 0.2}
+sac:                 {algo: sac}
+crossq:              {algo: crossq, crossq: true, use_target: false, critic_hidden: [2048, 2048],
+                      critic_lr: 1.0e-3, actor_lr: 1.0e-3, adam_beta1: 0.5, policy_delay: 3}
+ln_critic:           {algo: ddpg, use_target: false, critic_norm: ln, stab: wd_all, wd: 1.0e-2}
+# ours: target-free critic with Component A (clip + stabiliser) and the B-cheap trust-region actor, C = both
+ours:                {algo: ours, use_target: false, clip: 1.0, stab: proj, R_mult: 10.0,
+                      actor_update: cheap, eps: 1.0e-3, cset: both}
+ours_exact:          {algo: ours, use_target: false, clip: 1.0, stab: proj, R_mult: 10.0,
+                      actor_update: exact, eps: 1.0e-3, cset: both}
+ours_adam_actor:     {algo: ours, use_target: false, clip: 1.0, stab: proj, R_mult: 10.0, actor_update: adam}
+ours_twin:           {algo: ours, use_target: false, clip: 1.0, stab: proj, R_mult: 10.0,
+                      actor_update: cheap, eps: 1.0e-3, cset: both, n_critics: 2}
+sac_kl:              {algo: sac, use_target: false, kl_eps: 1.0e-3}
