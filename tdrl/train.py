@@ -132,6 +132,7 @@ def run(out, cfg):
             rets, _ = evaluate(eval_env, agent.act, cfg["eval_episodes"], agent.c["gamma"])
             evals.append(dict(step=t + 1, ret_mean=rets.mean(), ret_std=rets.std(), returns=list(rets.round(2))))
             print(f"{out} step {t + 1} return {rets.mean():.1f}", flush=True)
+            flush()  # keep logs on disk current so partial runs can be monitored
         if t >= cfg["learning_starts"] and ((t + 1) % cfg["overest_every"] == 0 or diverged):
             overs.append(dict(step=t + 1, **overestimation(mc_env, agent, rng=rng)))
         if diverged:  # a diverged run is a result: keep it and mark it (see DECISIONS.md)

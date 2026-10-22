@@ -39,6 +39,25 @@ def G1R():  # gate G1: projection radius R in {3,10,30,100} x init output-layer 
             for j in jobs("G1R", f"ours_R{R}", "ours", ["Hopper-v5"], SEEDS5, steps=300_000, R_mult=float(R))]
 
 
+def E4():  # first full runs, 500k (Pendulum 50k). DDPG on HalfCheetah/Hopper = E0 runs truncated at 500k.
+    J = jobs("E4", "ours", "ours", TUNE + ["Pendulum-v1"], SEEDS5, steps=500_000, threads=2)
+    for m in ("ddpg", "ddpg_notarget"):
+        J += jobs("E4", m, m, ["Pendulum-v1"], SEEDS5)
+    return J
+
+
+def E5():  # target drift (key). DDPG with/without targets on HalfCheetah/Hopper = E0 runs.
+    J = jobs("E5", "ddpg", "ddpg", ["Walker2d-v5"], SEEDS5) + jobs("E5", "ddpg_notarget", "ddpg_notarget", ["Walker2d-v5"], SEEDS5)
+    J += jobs("E5", "ours_adam_actor", "ours_adam_actor", E5_ENVS, SEEDS5, threads=2)
+    J += jobs("E5", "ours", "ours", E5_ENVS, SEEDS5, threads=2, cosine_every=10_000)  # also E6 cosine
+    J += jobs("E5", "ours_exact", "ours_exact", E5_ENVS, SEEDS5, threads=2)  # also E6
+    return J
+
+
+def E7():  # constraint set; C = both is E5 'ours'
+    return [j for c in ("s", "sprime") for j in jobs("E7", f"ours_C{c}", "ours", E5_ENVS, SEEDS5, threads=2, cset=c)]
+
+
 EXPERIMENTS ={k: v for k, v in globals().items() if (k[:1] in "EGX" or k == "pilot") and callable(v)}
 
 if __name__ == "__main__":
