@@ -1,0 +1,29 @@
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 5000 return -2.0
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 10000 return -1.9
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/torch/autograd/graph.py:823: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 15000 return -842.6
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 20000 return -155.2
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 25000 return -669.0
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 30000 return -983.1
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 35000 return -1240.0
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 40000 return -473.4
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 45000 return -549.2
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 50000 return -116.5
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 55000 return -642.2
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 60000 return -111.3
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 65000 return -481.4
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 70000 return -220.0
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 75000 return -573.9
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 80000 return -480.5
+results/E5/ours_adam_actor/HalfCheetah-v5/seed_2 step 85000 return -171.4

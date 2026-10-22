@@ -1,0 +1,23 @@
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 5000 return -1.1
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 10000 return -1.1
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 15000 return -977.7
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 20000 return -636.3
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 25000 return -901.4
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 30000 return -728.5
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 35000 return -713.7
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 40000 return -514.8
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 45000 return -600.0
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 50000 return -449.2
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 55000 return -602.1
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 60000 return -601.0
+results/E0/ddpg_tau1.0/HalfCheetah-v5/seed_0 step 61000 return -599.9

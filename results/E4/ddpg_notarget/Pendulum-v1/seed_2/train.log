@@ -1,0 +1,14 @@
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 5000 return -1319.8
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 10000 return -1417.8
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 15000 return -1476.5
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 20000 return -963.8
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 25000 return -201.2
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 30000 return -402.1
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 35000 return -429.2
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 40000 return -392.3
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 45000 return -183.1
+results/E4/ddpg_notarget/Pendulum-v1/seed_2 step 50000 return -383.3

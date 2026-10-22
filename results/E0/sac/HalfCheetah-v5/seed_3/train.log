@@ -1,0 +1,27 @@
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+results/E0/sac/HalfCheetah-v5/seed_3 step 5000 return -0.9
+results/E0/sac/HalfCheetah-v5/seed_3 step 10000 return -1.1
+results/E0/sac/HalfCheetah-v5/seed_3 step 15000 return -50.0
+results/E0/sac/HalfCheetah-v5/seed_3 step 20000 return -120.7
+results/E0/sac/HalfCheetah-v5/seed_3 step 25000 return 112.1
+results/E0/sac/HalfCheetah-v5/seed_3 step 30000 return 1077.8
+results/E0/sac/HalfCheetah-v5/seed_3 step 35000 return 2382.2
+results/E0/sac/HalfCheetah-v5/seed_3 step 40000 return 2585.8
+results/E0/sac/HalfCheetah-v5/seed_3 step 45000 return 2433.0
+results/E0/sac/HalfCheetah-v5/seed_3 step 50000 return 3005.9
+results/E0/sac/HalfCheetah-v5/seed_3 step 55000 return 4212.5
+results/E0/sac/HalfCheetah-v5/seed_3 step 60000 return 4399.6
+results/E0/sac/HalfCheetah-v5/seed_3 step 65000 return 4558.1
+results/E0/sac/HalfCheetah-v5/seed_3 step 70000 return 4822.2
+results/E0/sac/HalfCheetah-v5/seed_3 step 75000 return 4047.1
+results/E0/sac/HalfCheetah-v5/seed_3 step 80000 return 4933.2
+results/E0/sac/HalfCheetah-v5/seed_3 step 85000 return 5902.9

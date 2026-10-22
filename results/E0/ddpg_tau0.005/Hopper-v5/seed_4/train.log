@@ -1,0 +1,26 @@
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 5000 return 15.1
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 10000 return 15.0
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 15000 return 148.2
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 20000 return 156.2
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 25000 return 163.5
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 30000 return 17.4
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 35000 return 381.3
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 40000 return 194.4
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 45000 return 372.6
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 50000 return 251.6
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 55000 return 266.0
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 60000 return 310.8
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 65000 return 395.2
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 70000 return 320.7
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 75000 return 372.0
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 80000 return 10.6
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 85000 return 507.0
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 90000 return 289.9
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 95000 return 220.0
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 100000 return 537.5
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 105000 return 431.1
+results/E0/ddpg_tau0.005/Hopper-v5/seed_4 step 110000 return 1211.5

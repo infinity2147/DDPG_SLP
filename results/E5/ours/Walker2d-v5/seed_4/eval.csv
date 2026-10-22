@@ -1,0 +1,5 @@
+step,ret_mean,ret_std,returns
+5000,2.0781501369436297,0.20744988899052966,"[np.float64(2.01), np.float64(1.97), np.float64(1.94), np.float64(2.49), np.float64(2.04), np.float64(2.04), np.float64(1.81), np.float64(2.17), np.float64(2.41), np.float64(1.91)]"
+10000,2.4256402948025992,0.4990374154153014,"[np.float64(3.14), np.float64(3.06), np.float64(3.23), np.float64(1.87), np.float64(2.36), np.float64(1.91), np.float64(2.12), np.float64(1.94), np.float64(2.29), np.float64(2.33)]"
+15000,-14.700064830980883,0.13700246138006747,"[np.float64(-14.69), np.float64(-14.52), np.float64(-14.96), np.float64(-14.62), np.float64(-14.57), np.float64(-14.84), np.float64(-14.61), np.float64(-14.73), np.float64(-14.86), np.float64(-14.61)]"
+20000,-15.586215430454208,0.20666263352585182,"[np.float64(-15.77), np.float64(-15.87), np.float64(-15.35), np.float64(-15.28), np.float64(-15.42), np.float64(-15.69), np.float64(-15.92), np.float64(-15.49), np.float64(-15.59), np.float64(-15.49)]"

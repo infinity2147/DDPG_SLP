@@ -1,0 +1,33 @@
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 5000 return -1.4
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 10000 return -1.3
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 15000 return -308.7
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 20000 return -408.0
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 25000 return -100.7
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 30000 return 168.7
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 35000 return 873.6
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 40000 return 768.7
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 45000 return 1736.7
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 50000 return 1480.8
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 55000 return 2015.6
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 60000 return 2200.9
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 65000 return 2023.3
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 70000 return 2507.5
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 75000 return 2092.2
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 80000 return 2328.6
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 85000 return 1877.9
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 90000 return 2826.3
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 95000 return 3047.5
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 100000 return 3208.9
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 105000 return 3580.9
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 110000 return 3856.7
+results/E0/ddpg_tau0.05/HalfCheetah-v5/seed_1 step 115000 return 3930.5

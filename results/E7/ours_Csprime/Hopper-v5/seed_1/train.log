@@ -1,0 +1,10 @@
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+results/E7/ours_Csprime/Hopper-v5/seed_1 step 5000 return 20.7
+results/E7/ours_Csprime/Hopper-v5/seed_1 step 10000 return 20.7
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/torch/autograd/graph.py:823: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+results/E7/ours_Csprime/Hopper-v5/seed_1 step 15000 return 4.4
+results/E7/ours_Csprime/Hopper-v5/seed_1 step 20000 return 4.4

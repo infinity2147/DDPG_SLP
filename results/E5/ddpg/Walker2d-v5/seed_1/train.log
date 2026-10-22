@@ -1,0 +1,20 @@
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+results/E5/ddpg/Walker2d-v5/seed_1 step 5000 return 2.7
+results/E5/ddpg/Walker2d-v5/seed_1 step 10000 return 2.7
+results/E5/ddpg/Walker2d-v5/seed_1 step 15000 return 577.0
+results/E5/ddpg/Walker2d-v5/seed_1 step 20000 return 88.2
+results/E5/ddpg/Walker2d-v5/seed_1 step 25000 return 105.9
+results/E5/ddpg/Walker2d-v5/seed_1 step 30000 return 186.2
+results/E5/ddpg/Walker2d-v5/seed_1 step 35000 return 211.0
+results/E5/ddpg/Walker2d-v5/seed_1 step 40000 return 155.4
+results/E5/ddpg/Walker2d-v5/seed_1 step 45000 return 191.0
+results/E5/ddpg/Walker2d-v5/seed_1 step 50000 return 135.9
+results/E5/ddpg/Walker2d-v5/seed_1 step 55000 return -33.9
+results/E5/ddpg/Walker2d-v5/seed_1 step 60000 return 79.6
+results/E5/ddpg/Walker2d-v5/seed_1 step 65000 return 285.8
+results/E5/ddpg/Walker2d-v5/seed_1 step 70000 return 180.9
+results/E5/ddpg/Walker2d-v5/seed_1 step 75000 return 231.9
+results/E5/ddpg/Walker2d-v5/seed_1 step 80000 return 234.3

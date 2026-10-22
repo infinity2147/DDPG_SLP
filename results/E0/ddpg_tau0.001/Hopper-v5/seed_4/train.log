@@ -1,0 +1,29 @@
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 5000 return 15.1
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 10000 return 15.0
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 15000 return 105.5
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 20000 return 198.1
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 25000 return 232.6
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 30000 return 273.7
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 35000 return 288.6
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 40000 return 175.4
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 45000 return 337.6
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 50000 return 349.1
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 55000 return 351.3
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 60000 return 401.7
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 65000 return 437.9
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 70000 return 308.3
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 75000 return 385.1
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 80000 return 253.6
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 85000 return 293.8
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 90000 return 354.6
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 95000 return 340.7
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 100000 return 357.9
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 105000 return 319.5
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 110000 return 352.7
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 115000 return 565.6
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 120000 return 749.5
+results/E0/ddpg_tau0.001/Hopper-v5/seed_4 step 125000 return 922.5

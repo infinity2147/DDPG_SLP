@@ -1,0 +1,36 @@
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+WARNING: compiler attribute 'settotalmass' is deprecated and will be removed in a future release: scale the masses and densities in the model, or call mj_setTotalmass and mj_setConst on the compiled model
+
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 5000 return -3.2
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 10000 return -3.4
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 15000 return -454.8
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 20000 return -487.6
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 25000 return -136.5
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 30000 return 276.2
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 35000 return 896.7
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 40000 return 936.0
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 45000 return 757.4
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 50000 return 1288.6
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 55000 return 2364.4
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 60000 return 2700.3
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 65000 return 2996.9
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 70000 return 3071.7
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 75000 return 3411.9
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 80000 return 3319.0
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 85000 return 3561.9
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 90000 return 3649.8
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 95000 return 3842.1
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 100000 return 3880.5
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 105000 return 4078.1
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 110000 return 4182.1
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 115000 return 4117.4
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 120000 return 4237.1
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 125000 return 3991.1
+results/E0/ddpg_tau0.005/HalfCheetah-v5/seed_3 step 130000 return 4196.0

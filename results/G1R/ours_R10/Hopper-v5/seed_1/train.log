@@ -1,0 +1,7 @@
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:235: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+/home/fmr-group/24b4518/miniforge3/envs/tdrl/lib/python3.11/site-packages/gymnasium/spaces/box.py:305: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+results/G1R/ours_R10/Hopper-v5/seed_1 step 5000 return 20.7
+results/G1R/ours_R10/Hopper-v5/seed_1 step 10000 return 20.7
+results/G1R/ours_R10/Hopper-v5/seed_1 step 15000 return 4.4

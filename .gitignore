@@ -3,8 +3,8 @@ slurm_logs/
 env_create.log
 __pycache__/
 *.pt
-results/**/ckpt/
+
 queue/
-results/*/*/*/seed_*/
+
 scratch/
-MUJOCO_LOG.TXT
+
